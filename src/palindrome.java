@@ -10,10 +10,7 @@ public class palindrome {
         for (int i = a.length() - 1; i >= 0; i = i - 1) {
             char w = a.charAt(i);
             reverse = reverse + w;
-
-
-
-        }
+            }
         if ( a.equals(reverse)){
             System.out.println("Palindrome");
 
